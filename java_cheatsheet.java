@@ -114,6 +114,10 @@ public class Main {
         String[] x = s.split(" ");
         x = s.split("\\.");
 
+        for (char c : s.toCharArray()) {
+            System.out.println(c);
+        }
+
         StringBuilder sb = new StringBuilder();
         sb.append('-');
         sb.toString();
